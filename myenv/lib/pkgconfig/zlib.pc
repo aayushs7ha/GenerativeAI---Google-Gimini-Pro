@@ -1,0 +1,13 @@
+prefix=/Users/maverick/GenrativeAI-Langchain/GeminiPRO - Text2SQL/myenv
+exec_prefix=/Users/maverick/GenrativeAI-Langchain/GeminiPRO - Text2SQL/myenv
+libdir=/Users/maverick/GenrativeAI-Langchain/GeminiPRO - Text2SQL/myenv/lib
+sharedlibdir=/Users/maverick/GenrativeAI-Langchain/GeminiPRO - Text2SQL/myenv/lib
+includedir=/Users/maverick/GenrativeAI-Langchain/GeminiPRO - Text2SQL/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
